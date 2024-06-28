@@ -16,6 +16,7 @@
 - `NotAfter = +3 year`
 - `KeyNameNewCert = Test_CodeSign`
 
+#### Пояснение по параматерам в файле INI
 
  - `subject`: Имя субъекта сертификата (например, "CN=YourSubjectName, C=YourCountry").
  - `keyUsage`: Использование ключа сертификата (для подписи кода значение должно быть !!!ТОЛЬКО!!!, "DigitalSignature").
