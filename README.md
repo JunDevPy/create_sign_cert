@@ -30,8 +30,8 @@
 2. Перейдите в каталог со скриптом и файлом конфигурации INI.
 3. Выполните следующую команду:
 
-Set-ExecutionPolicy RemoteSigned
-.\script.ps1
+`Set-ExecutionPolicy RemoteSigned
+.\script.ps1`
 
 
 4. Введите пароль для сертификата, когда будет предложено.
