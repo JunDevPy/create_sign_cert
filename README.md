@@ -17,11 +17,11 @@
 `KeyNameNewCert = Test_CodeSign`
 
 
- `subject`: Имя субъекта сертификата (например, "CN=YourSubjectName, C=YourCountry").
- `keyUsage`: Использование ключа сертификата (для подписи кода значение должно быть !!!ТОЛЬКО!!!, "DigitalSignature").
- `keyAlgorithm`: Алгоритм ключа сертификата (например, "RSA").
- `keyLength`: Длина ключа сертификата (например, "2048").
- `keyNameNewCert`: Имя нового сертификата (например, "YourKeyName").
+ - `subject`: Имя субъекта сертификата (например, "CN=YourSubjectName, C=YourCountry").
+ - `keyUsage`: Использование ключа сертификата (для подписи кода значение должно быть !!!ТОЛЬКО!!!, "DigitalSignature").
+ - `keyAlgorithm`: Алгоритм ключа сертификата (например, "RSA").
+ - `keyLength`: Длина ключа сертификата (например, "2048").
+ - `keyNameNewCert`: Имя нового сертификата (например, "YourKeyName").
 
 ### Использование скрипта
 
