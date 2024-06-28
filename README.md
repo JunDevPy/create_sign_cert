@@ -26,11 +26,10 @@ KeyNameNewCert = Test_CodeSign
 
 
  `subject`: Имя субъекта сертификата (например, "CN=YourSubjectName, C=YourCountry").
- keyUsage: Использование ключа сертификата (например, "DigitalSignature").
- `# CertLocation`: Расположение сертификата в хранилище сертификатов (например, "Cert:\CurrentUser\My").
- keyAlgorithm: Алгоритм ключа сертификата (например, "RSA").
+ `keyUsage`: Использование ключа сертификата (например, "DigitalSignature").
+ `keyAlgorithm`: Алгоритм ключа сертификата (например, "RSA").
  `keyLength`: Длина ключа сертификата (например, "2048").
- keyNameNewCert: Имя нового сертификата (например, "YourKeyName").
+ `keyNameNewCert`: Имя нового сертификата (например, "YourKeyName").
 
 ### Использование скрипта
 
