@@ -9,12 +9,20 @@
 
 Файл конфигурации INI должен содержать следующие параметры:
 
-subject=CN=YourSubjectName
-keyUsage=DigitalSignature
-# CertLocation=Cert:\CurrentUser\My
-keyAlgorithm=RSA
-keyLength=2048
-keyNameNewCert=YourKeyName
+; Заголовки сертификата
+Subject = CN=SigningCertificate
+; Данную настройку не менять если незнаете зачем она
+KeyUsage = DigitalSignature
+; В какое хранилище устанавливаем сертификат
+CertLocation = CurrentUser\My
+; Алгоритм шифрования
+KeyAlgorithm = RSA
+; Стойкость алгоритма
+KeyLength = 4096
+; На какой срок (указан год)
+NotAfter = +3 year
+; имя файла pfx на выходе
+KeyNameNewCert = Test_CodeSign
 
 
  `subject`: Имя субъекта сертификата (например, "CN=YourSubjectName, C=YourCountry").
