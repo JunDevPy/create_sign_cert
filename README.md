@@ -9,12 +9,12 @@
 
 Файл конфигурации INI должен содержать следующие параметры:
 
-*** `Subject = CN=SigningCertificate`
-* `KeyUsage = DigitalSignature`
-* `KeyAlgorithm = RSA`
-* `KeyLength = 4096`
-* `NotAfter = +3 year`
-* `KeyNameNewCert = Test_CodeSign`
+- `Subject = CN=SigningCertificate`
+- `KeyUsage = DigitalSignature`
+- `KeyAlgorithm = RSA`
+- `KeyLength = 4096`
+- `NotAfter = +3 year`
+- `KeyNameNewCert = Test_CodeSign`
 
 
  - `subject`: Имя субъекта сертификата (например, "CN=YourSubjectName, C=YourCountry").
